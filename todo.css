@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: lightgray;
+  padding-top: 32px;
+}
+
+main {
+  border: solid 2px;
+  padding: 32px;
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main div {
+  padding: 16px 0;
+  border:solid 1px;
+}
+
+header {
+  display: flex;
+}
+
+header div {
+  flex: 1;
+  border: solid 2px;
+  padding: 10px;
+  text-align: center;
+}
+header div a {
+  color: white;
+}
